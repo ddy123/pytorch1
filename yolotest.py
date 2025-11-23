@@ -146,4 +146,5 @@ if __name__ == "__main__":
     detector = CondaYOLODetector(model_size='m')
     
     # 运行摄像头检测
+    #detector.run_webcam_detection('rtsp://222.20.126.228:8554/mystream')
     detector.run_webcam_detection()
